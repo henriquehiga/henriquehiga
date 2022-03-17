@@ -1,7 +1,7 @@
 <b>Bem vindo ao meu perfil!</b>
 <div>
-<a href="https://github.com/henriquehiga?tab=repositories"><img height="180px" min-width="220px" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henriquehiga&hide=html&theme=dark&layout=compact&langs_count=16" /></a>
- <img height="180px" width="49%" min-width="220px" src="https://github-readme-stats.vercel.app/api?username=henriquehiga&show_icons=true&theme=dark" />
+<a href="https://github.com/henriquehiga?tab=repositories"><img height="180px" width="400px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=henriquehiga&hide=html&theme=dark&layout=compact&langs_count=16" /></a>
+ <img height="180px" width="400px" src="https://github-readme-stats.vercel.app/api?username=henriquehiga&show_icons=true&theme=dark" />
  </div>
  
  <br />
