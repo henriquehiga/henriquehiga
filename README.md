@@ -2,7 +2,8 @@
 ------
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&layout=compact)
 
-**I'm Software Developer, passionate at web development.** Currently working at Digte as front-end developer.
+**I'm Software Developer, passionate at web development.**
+Currently working at Digte as front-end developer.
 
 <!--
 **codehiga/codehiga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
