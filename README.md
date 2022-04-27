@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi i'm Henrique 👋
+------
+**I'm Software Developer, passionate at web development.** Currently working at Digte as front-end developer.
 
 <!--
 **codehiga/codehiga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
