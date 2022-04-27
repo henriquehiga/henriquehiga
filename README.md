@@ -1,5 +1,7 @@
 ### Hi i'm Henrique 👋
 ------
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&layout=compact)](https://github.com/codehiga/github-readme-stats)
+
 **I'm Software Developer, passionate at web development.** Currently working at Digte as front-end developer.
 
 <!--
