@@ -1,7 +1,7 @@
 ### Hi i'm Henrique 👋
 ------
 
-**I'm Full-Stack Web Developer, passionate at web development.** <br />
+**I'm a Full-Stack Web Developer, passionate at web development.** <br />
 Currently working at Digte as front-end developer.
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&hide=html&layout=compact&theme=dark)
