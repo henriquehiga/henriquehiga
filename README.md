@@ -4,7 +4,7 @@
 **I'm a Full-Stack Web Developer, passionate at web development.** <br />
 Currently working at Digte as front-end developer JR.
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&hide=html&layout=compact&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&hide=html,shell&layout=compact&theme=dark)
 
 
 
