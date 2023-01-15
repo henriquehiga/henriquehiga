@@ -27,9 +27,6 @@
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&layout=compact&hide=html,css,javascript&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
 </br>
 
 ## 🔗 Links
