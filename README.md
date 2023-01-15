@@ -13,7 +13,9 @@
 
 </div>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=codehiga&show_icons=true&theme=transparent)
+</br>
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&layout=compact&hide=html,css&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ### 🛠 Skills
