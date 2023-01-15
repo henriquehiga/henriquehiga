@@ -15,8 +15,6 @@
 
 </br>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&layout=compact&hide=html,css&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
 
 ### 🛠 Skills
 ------
@@ -28,6 +26,11 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codehiga&layout=compact&hide=html,css&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+</br>
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henriqueynh/)
