@@ -7,7 +7,7 @@
     <div>
       <b>I'm a Full-Stack Web Developer, passionate at web development.</b>
       <br />
-      Currently working at Marketdata as Java developer.
+      Currently working at Marketdata as backend developer JR.
     </div>
   </div>
 
