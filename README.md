@@ -7,7 +7,7 @@
     <div>
       <b>I'm a Full-Stack Web Developer, passionate at web development.</b>
       <br />
-      Currently working at Marketdata as backend developer JR.
+      Currently working at Marketdata as fullstack developer.
     </div>
   </div>
 
@@ -17,3 +17,7 @@
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henriqueynh/)
+
+## Stats
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=codehiga&show_icons=true&theme=transparent)
