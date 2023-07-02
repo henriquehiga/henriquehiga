@@ -6,8 +6,6 @@
   <div style="display:flex; align-items: flex-start;">
     <div>
       <b>I'm a Full-Stack Web Developer, passionate at web development.</b>
-      <br />
-      Currently working at Marketdata as fullstack developer.
     </div>
   </div>
 
