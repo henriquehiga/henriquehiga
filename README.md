@@ -7,7 +7,7 @@
     <div>
       <b>I'm a Full-Stack Web Developer, passionate at web development.</b>
        <br />
-      <b>Currently working at Itaú Unibanco as full-stack developer.</b>
+      <b>Currently working at Itaú Unibanco as software engineer.</b>
     </div>
   </div>
 
