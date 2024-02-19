@@ -1,0 +1,142 @@
+{
+  "workbench.productIconTheme": "Default",
+  "window.autoDetectColorScheme": true,
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.tree.indent": 16,
+  "workbench.layoutControl.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  // Editor Settings
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "editor.accessibilitySupport": "off",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  // Code Formatting
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  // Terminal Settings
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  // Terminal Profiles (Windows)
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  // Terminal Environment (OSX)
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  // Terminal Environment (Windows)
+  "terminal.integrated.env.windows": {},
+  // Telemetry and Features
+  "redhat.telemetry.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "solidity.telemetry": true,
+  "symbols.hidesExplorerArrows": false,
+  // Startup Editor
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": true,
+  "extensions.autoCheckUpdates": false,
+  "workbench.preferredLightColorTheme": "Min Light",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.commandCenter": false,
+  "terminal.integrated.gpuAcceleration": "on",
+  "window.titleBarStyle": "native",
+  "apc.header": {
+    "compact": 22
+  },
+  "apc.electron": {
+    "visualEffectState": "active",
+  },
+  "window.menuBarVisibility": "toggle",
+  "apc.statusBar": {
+    "position": "editor-bottom"
+  },
+  "apc.menubar.compact": false,
+  "apc.activityBar": {
+    "hideSettings": true,
+    "position": "bottom",
+    "size": 28,
+  },
+  "workbench.statusBar.visible": true,
+  "apc.stylesheet": {
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    "div > .composite.title": "display: none !important",
+    ".sidebar": "min-height: 100vh !important",
+    ".pane-body": "min-height: 100% !important",
+    ".explorer-item .monaco-highlighted-label": "font-family: JetBrains Mono !important; opacity: 0.80; font-weight: 500;",
+    ".statusbar-item-label": "font-family: JetBrains Mono !important",
+    "div.part.panel.basepanel.bottom.pane-composite-part": "height: 100% !important",
+    "div.left-items.items-container": "justify-content: flex-end;",
+    "div.activitybar > .content": "gap: 4px"
+  },
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view",
+    ],
+    "height": 24,
+    "fontSize": 12.8,
+  },
+  "workbench.colorTheme": "Min Light",
+  "update.mode": "default",
+}
