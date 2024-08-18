@@ -1,18 +1,6 @@
 ### Hi i'm Henrique 👋
 ------
 
-<div>
-
-  <div style="display:flex; align-items: flex-start;">
-    <div>
-      <b>I'm a Full-Stack Web Developer, passionate at web development.</b>
-       <br />
-      <b>Currently working at Itaú Unibanco as software engineer.</b>
-    </div>
-  </div>
-
-</div>
-
 </br>
 
 ## 🔗 Links
