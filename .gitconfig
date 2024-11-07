@@ -1,9 +1,16 @@
 [user]
 	email = codehiga@gmail.com
-	name = Henrique Higa
+	name = henriquehiga
 [alias]
 	s = !git status -s
 	c = !git add --all && git commit --allow-empty -m
 	l = !git log -10 --reverse --abbrev-commit --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 	po = "!git push origin \"$(git rev-parse --abbrev-ref HEAD)\""
 	pu = "!git pull origin \"$(git rev-parse --abbrev-ref HEAD)\""
+[credential "https://huggingface.co"]
+	provider = generic
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
