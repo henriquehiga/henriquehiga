@@ -1,108 +1,128 @@
 {
-    "workbench.productIconTheme": "Default",
-    "window.autoDetectColorScheme": true,
-    "workbench.sideBar.location": "right",
-    "workbench.iconTheme": "Monokai Pro Icons",
-    "workbench.tree.indent": 16,
-    "workbench.layoutControl.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.minimap.enabled": false,
-    "explorer.compactFolders": false,
-    // Editor Settings
-    "editor.fontSize": 16,
-    "editor.lineHeight": 28,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
-    "editor.linkedEditing": true,
-    "editor.accessibilitySupport": "off",
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    // Code Formatting
-    "[csharp]": {
-      "editor.defaultFormatter": "ms-dotnettools.csharp"
+  // Workbench Settings
+  "workbench.productIconTheme": "Default",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "workbench.tree.indent": 16,
+  "workbench.statusBar.visible": true,
+  "workbench.preferredDarkColorTheme": "Monokai Pro",
+  "workbench.preferredLightColorTheme": "Monokai Pro Light",
+  "workbench.startupEditor": "newUntitledFile",
+  "breadcrumbs.enabled": false,
+
+  // Window Settings
+  "window.autoDetectColorScheme": true,
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never",
+
+  // Editor Settings
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.accessibilitySupport": "off",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+
+  // Code Formatting
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Terminal Settings
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.gpuAcceleration": "on",
+
+  // Terminal Profiles (Windows)
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
-    "[rust]": {
-      "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
     },
-    "[go]": {
-      "editor.defaultFormatter": "golang.go"
+    "Git Bash": {
+      "source": "Git Bash"
     },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[scss]": {
-      "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[python]": {
-      "editor.defaultFormatter": "ms-python.autopep8"
-    },
-    // Terminal Settings
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    "terminal.integrated.fontSize": 14,
-    // Terminal Profiles (Windows)
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.profiles.windows": {
-      "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
-      },
-      "Command Prompt": {
-        "path": [
-          "${env:windir}\\Sysnative\\cmd.exe",
-          "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
-      },
-      "Git Bash": {
-        "source": "Git Bash"
-      },
-      "Windows PowerShell": {
-        "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-      }
-    },
-    // Terminal Environment (OSX)
-    "terminal.integrated.env.osx": {
-      "FIG_NEW_SESSION": "1"
-    },
-    // Terminal Environment (Windows)
-    "terminal.integrated.env.windows": {},
-    // Telemetry and Features
-    "redhat.telemetry.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "solidity.telemetry": true,
-    "symbols.hidesExplorerArrows": false,
-    // Startup Editor
-    "workbench.startupEditor": "newUntitledFile",
-    "extensions.ignoreRecommendations": true,
-    "extensions.autoCheckUpdates": false,
-    "workbench.preferredLightColorTheme": "Min Light",
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.commandCenter": false,
-    "terminal.integrated.gpuAcceleration": "on",
-    "window.titleBarStyle": "native",
-    "window.menuBarVisibility": "toggle",
-    "workbench.statusBar.visible": true,
-    "workbench.colorTheme": "Min Light",
-    "update.mode": "default",
-    "files.defaultLanguage": "us",
-  }
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+
+  // Terminal Environment
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.env.windows": {},
+
+  // Explorer Settings
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Files Settings
+  "files.defaultLanguage": "us",
+
+  // Telemetry and Features
+  "redhat.telemetry.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "symbols.hidesExplorerArrows": false,
+
+  // Extensions Settings
+  "extensions.ignoreRecommendations": true,
+  "extensions.autoCheckUpdates": false,
+
+  // Update Settings
+  "update.mode": "start",
+  "jest.enable": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.ignoreRebaseWarning": true
+}
