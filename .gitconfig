@@ -1,16 +1,23 @@
 [user]
-	email = codehiga@gmail.com
-	name = henriquehiga
+    email = codehiga@gmail.com
+    name = henriquehiga
 [alias]
-	s = !git status -s
-	c = !git add --all && git commit --allow-empty -m
-	l = !git log -10 --reverse --abbrev-commit --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
-	po = "!git push origin \"$(git rev-parse --abbrev-ref HEAD)\""
-	pu = "!git pull origin \"$(git rev-parse --abbrev-ref HEAD)\""
+    s = !git status -s
+    c = "!f() { if [ \"$#\" -eq 0 ]; then echo \"Erro: Forneça uma mensagem de commit.\"; return 1; fi; message=\"$1\"; shift; if [ \"$#\" -eq 0 ]; then echo \"git: Adicionando todos os arquivos modificados.\"; git add --all; elif [ \"$#\" -eq 1 ]; then target=\"$1\"; case \"$target\" in *\\**|*\\?*) echo \"git: Adicionando arquivos que correspondem ao padrão '$target'\"; git add -- \"$target\";; *) echo \"git: Procurando por '$target' nos nomes de arquivos alterados...\"; files_to_add=$(git status -s | grep --fixed-strings \"$target\" | awk '{print $2}'); if [ -z \"$files_to_add\" ]; then echo \"fatal: Nenhum arquivo alterado corresponde a '$target'.\"; return 1; fi; echo \"git: Adicionando os seguintes arquivos:\"; echo \"$files_to_add\" | awk '{print \"  - \"$0}'; git add -- $files_to_add;; esac; else echo \"git: Adicionando os seguintes arquivos/padrões: $@\"; git add -- \"$@\"; fi; if ! git diff --staged --quiet; then git commit -m \"$message\"; else echo \"git: Nenhum arquivo foi adicionado ao stage. Commit cancelado.\"; fi; }; f"
+    l = !git log -10 --reverse --abbrev-commit --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+    po = "!git push origin \"$(git rev-parse --abbrev-ref HEAD)\""
+    pu = "!git pull origin \"$(git rev-parse --abbrev-ref HEAD)\""
+    b = !git branch -a
+    del = "!f() { git push origin --delete \"$1\" && git branch -D \"$1\"; }; f"
+    sync = "!f() { git fetch --all --prune && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D \"$branch\"; done; }; f"
+    rst = "!git reset --hard origin/$(git rev-parse --abbrev-ref HEAD)"
+    cln = !git reset --hard && git clean -fd
 [credential "https://huggingface.co"]
-	provider = generic
+    provider = generic
 [filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+[init]
+    defaultBranch = main
