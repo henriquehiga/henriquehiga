@@ -12,6 +12,7 @@
     sync = "!f() { git fetch --all --prune && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D \"$branch\"; done; }; f"
     rst = "!git reset --hard origin/$(git rev-parse --abbrev-ref HEAD)"
     cln = !git reset --hard && git clean -fd
+    amd = "!f() { if [ -z \"$1\" ]; then echo 'Erro: Forneça a nova mensagem do commit.'; else git commit --amend -m \"$1\"; fi; }; f"
 [credential "https://huggingface.co"]
     provider = generic
 [filter "lfs"]
