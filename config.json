@@ -1,27 +1,27 @@
 {
   // Workbench Settings
   "workbench.productIconTheme": "Default",
-  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
   "workbench.layoutControl.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
   "workbench.tree.indent": 16,
   "workbench.statusBar.visible": true,
-  "workbench.preferredDarkColorTheme": "Monokai Pro",
-  "workbench.preferredLightColorTheme": "Monokai Pro Light",
+  "workbench.preferredLightColorTheme": "Min Light",
+  "workbench.preferredDarkColorTheme": "Min Dark",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.empty.hint": "hidden",
   "breadcrumbs.enabled": false,
 
   // Window Settings
   "window.autoDetectColorScheme": true,
-  "window.titleBarStyle": "native",
+  "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "toggle",
   "window.commandCenter": false,
-  "window.customTitleBarVisibility": "never",
 
   // Editor Settings
-  "editor.fontSize": 16,
-  "editor.lineHeight": 28,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 26,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
@@ -29,8 +29,10 @@
   "editor.accessibilitySupport": "off",
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.maxTokenizationLineLength": 5000,
 
   // Code Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
@@ -67,20 +69,23 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
 
   // Terminal Settings
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.gpuAcceleration": "on",
 
   // Terminal Profiles (Windows)
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
       "icon": "terminal-powershell"
     },
-    "Command Prompt": {
+    "cmd": {
       "path": [
         "${env:windir}\\Sysnative\\cmd.exe",
         "${env:windir}\\System32\\cmd.exe"
@@ -90,9 +95,6 @@
     },
     "Git Bash": {
       "source": "Git Bash"
-    },
-    "Windows PowerShell": {
-      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
     }
   },
 
@@ -120,9 +122,13 @@
   "extensions.ignoreRecommendations": true,
   "extensions.autoCheckUpdates": false,
 
-  // Update Settings
+  // Misc Settings
   "update.mode": "start",
   "jest.enable": false,
   "liveServer.settings.donotShowInfoMsg": true,
-  "git.ignoreRebaseWarning": true
+  "git.ignoreRebaseWarning": true,
+  "diffEditor.maxComputationTime": 0,
+  "security.workspace.trust.untrustedFiles": "open",
+  "chat.commandCenter.enabled": false,
+  "random.uuid": "d0f96-32d68-c5eb9-d7ad3-e76b4"
 }
